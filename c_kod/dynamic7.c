@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int inchvor = 0;
+
 int parz(int* size){
     int* parzarr = (int*)malloc(sizeof(int) * (*size));
     int count = 0;
