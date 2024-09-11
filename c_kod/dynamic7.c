@@ -10,12 +10,12 @@ int parz(int* size){
     for(int i = 0; i < *size; ++i){
         if(i <= 1){
             continue;
-        }else if(i == 2 || i == 3){
+        }else if(i == 2 || i == 3 || i == 5){
             parzarr[count] = i;
             count++;
             continue;
         }
-        if(i % 2 == 0 || i % 3 == 0){
+        if(i % 2 == 0 || i % 3 == 0 || i % 5 == 0){
             continue;
         }
         parzarr[count] = i;
