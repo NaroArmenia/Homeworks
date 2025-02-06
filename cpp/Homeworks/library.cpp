@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <cstring>
-#include <string>
 
 typedef struct {
     char title[100];
